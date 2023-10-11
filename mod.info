@@ -1,0 +1,7 @@
+{Mod
+	{Name "НЕ ТРОЖЬ УБЬЁТ"}
+	{Desc "isValidCW"}
+	{MinGameVersion "3.250"}
+	{MaxGameVersion "3.265"}
+	{FileId "2299976035"}
+}
