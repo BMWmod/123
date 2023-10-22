@@ -449,7 +449,7 @@
 ;	{item "bullet122_RUS" "cm" "d30ammo" "ammo" 1 {max 5}{value 3}}				
 	{item "bullet122_RUS" "rok" "d30ammo" "ammo" 1 {max 24}{value 15}}
 	{item "bullet122_CN" "fg" "d30ammo" "ammo" 1 {max 24}{value 10}}
-    {item "bullet122_CN" "rok" "d30ammo" "ammo" 1 {max 10}{value 20}}	
+    {item "bullet122_CN" "rok" "d30ammo" "ammo" 1 {max 2}{value 20}}	
 	{item "bullet122_CN" "cm" "d30ammo" "ammo" 1 {max 10}{value 10}}
 ;	{item "bullet122_RUS" "sm" "d30ammo" "ammo" 1 {max 5}{value 3}}				
 )
@@ -603,7 +603,8 @@
 ;	{item "fagot_concurs 9m113 ammo" 1 {max 5}{value 10}}				
 ;	{item "fagot_concurs 9m113m ammo" 1 {max 3}{value 10}}				
 	{item "fagot_concurs 9m113m1 ammo" 1 {max 5}{value 10}}				
-	{item "strela10 9m333 ammo" 1 {max 8}{value 9}}	
+	{item "strela10 9m333 ammo" 1 {max 8}{value 9}}
+	{item "9m330 ammo" 2 {max 8}{value 20}}	
 	{item "shershen cm ammo" 2 {max 4}{value 9}}
     {item "shershen fg ammo" 2 {max 4}{value 9}}	
 	
@@ -618,7 +619,8 @@
 	{item "agm-114 k ammo" 1 {max 4}{value 10}}
 ;	{item "agm-114 l ammo" 1 {max 2}{value 10}}
 	;{item "agm-114 n ammo" 1 {max 2}{value 10}}
-	{item "aim-9l_ammo ammo" 1 {max 2}{value 5}}
+	{item "aim-9l_ammo ammo" 1 {max 2}{value 10}}
+	{item "AIM-120C7 ammo" 2 {max 6}{value 25}}
 	{item "mistral_missile ammo" 1 {max 4}{value 30}}	
     {item "spike-er2 spike-er ammo" 1 {max 4}{value 61}}			
 )
@@ -631,12 +633,13 @@
 	{item "milan_rock milan-er ammo" 1 {max 4}{value 6}}				
 	{item "spike-er spike-er ammo" 1 {max 4}{value 65}}				
 	{item "spike-lr ammo" 1 {max 2}{value 51}}
-    {item "spike_nlos cm ammo" 1 {max 4}{value 70}}                                             	
+    {item "spike_nlos cm ammo" 1 {max 4}{value 60}}                                             	
 	{item "eryx_rock ammo" 1 {max 2}{value 3}}				
 	{item "mmp_missile ammo" 1 {max 2}{value 51}}
 	{item "jav_rock ammo" 1 {max 2}{value 30}}	
 	{item "agm-114 k ammo" 1 {max 4}{value 10}}
 	{item "aim-9l_ammo ammo" 1 {max 2}{value 5}}
+	{item "xmim-115avt1 ammo" 2 {max 10}{value 20}}
 )
 (define "atgm_cn"
 	{item "hj73 hj73c" 1 {max 4}{value 4}}				
@@ -646,18 +649,19 @@
 	{item "hj8h hj8 ammo" 3 {max 3}{value 10}}
 	{item "hq7b ammo" 1 {max 8}{value 9}}				
 	{item "red_arrow12_rock ammo" 1 {max 2}{value 20}}		
-    {item "Ten_Lei_ammo cm ammo" 1 {max 2}{value 50}}	
+    {item "Ten_Lei_ammo cm ammo" 1 {max 2}{value 51}}
+	{item "hq7b ammo" 2 {max 4}{value 20}}	
 )
 
 (define "sam_rus"
 	;{item "strela10 9m37 ammo" 1 {max 8}{value 9}}				
-	{item "strela10 9m333 ammo" 1 {max 8}{value 9}}				
+	{item "strela10 9m333 ammo" 2 {max 8}{value 9}}				
 	{item "9m31 ammo" 1 {max 4}{value 9}}	
     {item "9m338 ammo" 4 {max 16}{value 10}}	
 	;{item "9m38 buk ammo" 1 {max 4}{value 50}}				
 	{item "9m317 buk ammo" 2 {max 4}{value 25}}				
 	{item "9m311 ammo" 2 {max 8}{value 25}}
-    {item "pantsir 57e6e ammo" 4 {max 12}{value 25}}
+    {item "pantsir 57e6e ammo" 6 {max 12}{value 20}}
     {item "r_27er ammo" 1 {max 6}{value 5}}				
 	{item "r-3c ammo" 1 {max 2}{value 5}}				
 	{item "r60_su25 ammo" 1 {max 2}{value 5}}				
@@ -680,14 +684,14 @@
 	{item "AIM-120C7 ammo" 2 {max 6}{value 5}}		
 )
 (define "sam_cn"
-	{item "hq7b ammo" 1 {max 4}{value 13}}
+	{item "hq7b ammo" 2 {max 4}{value 10}}
 	{item "9m330 ammo" 2 {max 8}{value 13}}
 	{item "hq16 hq16b ammo" 2 {max 6}{value 25}}	
     {item "pl5e2 ammo" 1 {max 2}{value 5}}		
     {item "pl12 ammo" 1 {max 2}{value 5}}	
 	{item "pl8b ammo" 1 {max 2}{value 5}}				
 	{item "r-73 ammo" 1 {max 2}{value 5}}				
-	{item "rvv-sd ammo" 1 {max 10}{value 5}}			
+	{item "rvv-sd ammo" 2 {max 10}{value 5}}			
 )
 
 (define "manpads_rus"
@@ -722,7 +726,7 @@
     {item "kmgu2 ammo" 4 {max 8}{value 5}}		
 	{item "s25ld ammo" 1 {max 6}{value 20}}				
 	{item "x_25ml_su25_ammo ammo" 1 {max 4}{value 80}}				
-	{item "x31p ammo" 2 {max 6}{value 40}}				
+	{item "x31p ammo" 2 {max 6}{value 90}}				
 	{item "x-38mte ammo" 1 {max 2}{value 75}}			
 	{item "x59m ammo" 1 {max 2}{value 125}}				
 	{item "r_27er ammo" 1 {max 6}{value 5}}				
@@ -743,7 +747,7 @@
 ;	{item "agm-114 n ammo" 1 {max 8}{value 10}}				
 	{item "agm-65D ammo" 1 {max 3}{value 22}}				
 	{item "agm-65G ammo" 1 {max 3}{value 30}}				
-	{item "agm88 ammo" 2 {max 4}{value 40}}
+	{item "agm88 ammo" 2 {max 4}{value 80}}
     {item "agm-84D ammo" 1 {max 2}{value 20}}	
 	{item "agm-154 ammo" 1 {max 2}{value 50}}				
 	{item "cbu-97 ammo" 1 {max 6}{value 30}}
@@ -766,7 +770,7 @@
 	{item "trigat ammo" 1 {max 8}{value 10}}				
 	{item "AIM-120C7 ammo" 2 {max 8}{value 5}}				
 	{item "brimstone ammo" 1 {max 12}{value 60}}				
-	{item "alarm_missile ammo" 2 {max 4}{value 40}}
+	{item "alarm_missile ammo" 2 {max 4}{value 80}}
     {item "agm-154 ammo" 1 {max 2}{value 50}}
 	{item "sdb1 ammo" 8 {max 8}{value 150}}
 	{item "gbu10 ammo" 1 {max 2}{value 30}}				
