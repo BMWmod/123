@@ -513,7 +513,7 @@
 	{item "bullet155_USA_ar fg ammo" 1 {max 30}{value 15}}				
 	{item "bullet155_USA_h fg ammo" 1 {max 30}{value 15}}	
 	{item "bullet155_USA_h_r fg ammo" 1 {max 30}{value 15}}	
-	{item "bullet155_USA_pgk fg ammo" 1 {max 3}{value 70}}
+	{item "bullet155_USA_pgk fg ammo" 1 {max 3}{value 60}}
 )
 (define "155mm_NATO"
 	{item "bullet155_GER fg ammo" 1 {max 40}{value 15}}				
@@ -526,7 +526,9 @@
 	{item "bullet152_RUS_a fg bullet152_RUS ammo" 1 {max 40}{value 15}}	
     {item "bullet155_USA_h fg ammo" 1 {max 30}{value 15}}	
 	{item "bullet155_USA_h_r fg ammo" 1 {max 30}{value 15}}		
-	{item "bullet155_USA_pgk fg ammo" 1 {max 30}{value 40}}
+	{item "bullet155_USA_pgk fg ammo" 1 {max 30}{value 60}}
+	
+	{item "bullet152_RUS_a fg ammo" 1 {max 40}{value 15}}	
 )
 (define "155mm_cn"
 	{item "bullet155_cn 155_cn cl ammo" 1 {max 20}{value 15}}				

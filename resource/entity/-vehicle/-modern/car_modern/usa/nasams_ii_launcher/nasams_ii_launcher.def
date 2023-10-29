@@ -3,7 +3,7 @@
 	(include "/properties/shadow/tank.inc"  scale(1.0))
 	(include "/properties/selection/vehicle.inc"  scale(1.1))
 	{collider "truck"}
-	{props "vehicle" "car" "truck" "turret" "with_gun" "wheeled" "6_wheels" "vision_lev03" "armored_glass" "mtvr" "nasams_ii_launcher"}
+	{props "vehicle" "car" "truck" "turret" "with_gun" "wheeled" "6_wheels" "vision_lev03" "armored_glass" "mtvr"}
 	{targetClass "armoredcar"}
 	{able "emit_on_attack"}
 	("armor_car_STANAG3_custom" mrap(18) mrap_val(90))

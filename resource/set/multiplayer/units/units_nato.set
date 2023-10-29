@@ -116,8 +116,8 @@
 {"fh-70"		("vartg" c(360) c1(man_passenjer) c2(fh-70) brig(abn) t(all art nobot support_frontline) s(nato) n(2) n1(vehicle_supporter:2) n2(vehicle_supporter:2) g(art1) sc(200)  b(abn_hqcar) i(3) cw(5) cp(20))  {fore -1.0}} 
 
 
-
-{"pzh2000" ("v_nation" c(620) brig(abn) t(additional art nobot) s(nato) n(5) crew_nation(frg) g(art2) sc(450) b(abn_hqcar) i(6) cw(0) cp(45))   {fore -1.0}}
+{"as_90" ("v_nation" c(300) brig(abn) t(additional art nobot) s(nato) n(5) crew_nation(frg) g(extra9)   sc(300) b(abn_hqcar) i(5) cw(0) cp(30))   {fore -2.0}}
+{"pzh2000" ("v_nation" c(660) brig(abn) t(additional art nobot) s(nato) n(5) crew_nation(frg) g(art2) sc(450) b(abn_hqcar) i(6) cw(0) cp(45))   {fore -1.0}}
 
 {"mrls_2" ("v_nation" c(1800) brig(abn) t(all art nobot support_frontline) s(nato) crew_nation(frg) n(2) g(mlrs1) sc(550) b(abn_hqcar) i(7) cw(0) cp(70))  {fore 0.0}}
 {"mrls_atacms_nato" ("v_nation" c(1800) brig(abn) t(all art nobot support_frontline) s(nato) crew_nation(frg) n(2) g(otrk) sc(200) b(abn_hqcar) i(8) m(4) cw(0) cp(60))  {fore -0.1}}
@@ -125,8 +125,9 @@
 
 
 {"mq9_nato_recon"            ("h" c(600) brig(abn) t(additional aircraft nobot support_frontline) s(nato) n(0) g(extra7)  sc(50) b(extra) i(9) cw(0) cp(5))  {fore 0.0}}
-{"lars2" ("v_nation" c(600) brig(abn) t(all art nobot support_frontline) s(nato) crew_nation(frg) n(2) g(extra8) sc(200) b(extra) i(6) cw(0) cp(40))   {fore -0.5}}
-{"as_90" ("v_nation" c(300) brig(abn) t(additional art nobot) s(nato) n(5) crew_nation(frg) g(extra9)   sc(200) b(extra) i(5) cw(0) cp(30))   {fore -2.0}}
+{"dana_152mm" ("v_nation" c(360) brig(abn) t(additional art nobot) s(nato) n(5) crew_nation(cz) g(extra8)   sc(100) b(extra) i(5) cw(0) cp(30))   {fore -1.0}}
+{"lars2" ("v_nation" c(600) brig(abn) t(all art nobot support_frontline) s(nato) crew_nation(frg) n(2) g(extra7) sc(200) b(extra) i(6) cw(0) cp(40))   {fore -1.0}}
+
 
 ;===============================Bundeswehr====BUND=======================================
 

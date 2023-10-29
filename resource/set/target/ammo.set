@@ -62,6 +62,7 @@
 	{airborne
 		{"rad_aa_passive"}
 	    {"rad_aa"}
+		{"ir_aa"}
 	    {"rus_ir cwps2" {volume "body"}}
 		{"usa_ir cwps2" {volume "body"}}
 		{"rus_ir_aj cwps2" {volume "body"}}
@@ -77,6 +78,7 @@
 	{Helicopter
 		{"rad_aa_passive"}
 	    {"rad_aa"}
+		{"ir_aa"}
 	    {"short_sam"}
 	    {"rus_ir cwps2" {volume "body"}}
 		{"usa_ir cwps2" {volume "body"}}
@@ -101,52 +103,55 @@
 		
 	}
 	{small_UAV 
-		{"rad_aa"}
-	    {"short_sam"}
+		{"rad_aa" {volume "body"}}
+		{"ir_aa" {volume "body"}}
+	    {"short_sam" {volume "body"}}
         {"rus_ir cwps2" {volume "body"}}
 		{"usa_ir cwps2" {volume "body"}}
 		{"rus_ir_aj cwps2" {volume "body"}}
 		{"usa_ir_aj cwps2" {volume "body"}}
 		{"rus_ir_asm_aj cwps2" {volume "body"}}
 		{"usa_ir_asm_aj cwps2" {volume "body"}}	
-		{"tv_seeker"}
-		{"autocannon_small"}
-		{"antiair"}
-		{"zenite"}
-		{"hmgun"}
-		{"hrifle"}
-		{"ptr"}
-		{"bullet"}		
+		{"tv_seeker" {volume "body"}}
+		{"autocannon_small" {volume "body"}}
+		{"antiair" {volume "body"}}
+		{"zenite" {volume "body"}}
+		{"hmgun" {volume "body"}}
+		{"hrifle" {volume "body"}}
+		{"ptr" {volume "body"}}
+		{"bullet" {volume "body"}}		
 	}
 	{medium_UAV 	
-		{"rad_aa_passive"}
-	    {"rad_aa"}
-		{"antiair"}
-		{"zenite"}
-		{"autocannon_small"}
-		{"anti_smallmissile"}
+		{"rad_aa_passive" {volume "body"}}
+	    {"rad_aa" {volume "body"}}
+		{"ir_aa" {volume "body"}}
+		{"antiair" {volume "body"}}
+		{"zenite" {volume "body"}}
+		{"autocannon_small" {volume "body"}}
+		{"anti_smallmissile" {volume "body"}}
 		
 	}
 	{small_UAV_kamikaze 	
-		{"tv_seeker"}
-		{"autocannon_small"}
-		{"zenite"}
-		{"hmgun"}
-		{"hrifle"}
-		{"ptr"}
-		{"bullet"}	
+		{"tv_seeker" {volume "body"}}
+		{"autocannon_small" {volume "body"}}
+		{"zenite" {volume "body"}}
+		{"hmgun" {volume "body"}}
+		{"hrifle" {volume "body"}}
+		{"ptr" {volume "body"}}
+		{"bullet" {volume "body"}}	
 	}
 	{medium_UAV_kamikaze
-		{"rad_aa_passive"}
-		{"rad_aa"}
-		{"antiair"} 	
-		{"tv_seeker"}
-		{"autocannon_small"}
-		{"zenite"}
-		{"hmgun"}
-		{"hrifle"}
-		{"ptr"}
-		{"bullet"}	
+		{"rad_aa_passive" {volume "body"}}
+		{"rad_aa" {volume "body"}}
+		{"ir_aa" {volume "body"}}
+		{"antiair" {volume "body"}} 	
+		{"tv_seeker" {volume "body"}}
+		{"autocannon_small" {volume "body"}}
+		{"zenite" {volume "body"}}
+		{"hmgun" {volume "body"}}
+		{"hrifle" {volume "body"}}
+		{"ptr" {volume "body"}}
+		{"bullet" {volume "body"}}	
 	}
 	{car
 	    ("exceptions")

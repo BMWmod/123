@@ -74,7 +74,7 @@
 			{bone "visor2"}
 		}
 		{visor "gunner"
-			{vision "aircraft_optic_3g_wide"}
+			{vision "aircraft_optic_3g_360"}
 			{bone "visor1"}
 		}
 		{visor "add"

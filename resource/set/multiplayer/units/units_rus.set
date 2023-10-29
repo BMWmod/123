@@ -110,7 +110,7 @@
 {"ural_art_pvo"	("vs" c(300) brig(artbr) t(all supply nobot support_frontline) s(rus) n(2) g(supplyart) 	sc(100) b(pvo_hqcar) i(10) cw(0) cp(2))  {fore 1}} 
 {"box_weapon_rus_krasnopol"	("vs" c(1) brig(artbr) t(all supply nobot support_frontline precision_munition) s(rus) n(0) g(supplyart_spec) sc(1) b(pvo_hqcar) i(11) cw(0) cp(2)) {cost 50} {fore -1200}}
 {"box_weapon_rus_smerch_cl"	("vs" c(1) brig(artbr) t(all supply nobot support_frontline) s(rus) n(0) g(supplyart_spec) sc(1) b(pvo_hqcar) i(12) cw(0) cp(2)) {cost 100} {fore -1200}}
-{"box_weapon_rus_smerch_tb"	("vs" c(1) brig(artbr) t(all supply nobot support_frontline) s(rus) n(0) g(supplyart_spec_extra) sc(1) b(pvo_hqcar) i(13) cw(0) cp(2)) {cost 300} {fore -1800}}
+;{"box_weapon_rus_smerch_tb"	("vs" c(1) brig(artbr) t(all supply nobot support_frontline) s(rus) n(0) g(supplyart_spec_extra) sc(1) b(pvo_hqcar) i(13) cw(0) cp(2)) {cost 300} {fore -1800}}
 {"box_weapon_rus_tornado_s_fg"	("vs" c(1) brig(artbr) t(all supply nobot support_frontline) s(rus) n(0) g(supplyart_spec) sc(1) b(pvo_hqcar) i(14) cw(0) cp(2)) {cost 100} {fore -1200}}
 
 
