@@ -97,7 +97,9 @@
 
 {"man_avia" ("vs_nation" c(600) brig(nrf) t(additional aircraft nobot support_frontline)  s(nato) n(2) crew_nation(brit) g(supairn)  sc(100) b(natoaa_hqcar)   i(8) m(2) cw(0) cp(2))  {fore 1}}
 {"man_art" ("vs_nation" c(300) brig(abn) t(all supply nobot support_frontline) s(nato) n(2) crew_nation(frg) g(supply4)   sc(100) b(natoaa_hqcar) i(9) cw(0) cp(2))  {fore 1}}
-{"box_weapon_nato_vulcan"	("vs" c(1) brig(abn) t(all supply nobot support_frontline precision_munition) s(nato) n(0) g(supply_spec) 	sc(1) b(natoaa_hqcar) i(10) cw(0) cp(2)) {cost 30} {fore -1500}}
+{"box_weapon_nato_vulcan_sal"	("vs" c(1) brig(abn) t(all supply nobot support_frontline precision_munition) s(nato) n(0) g(supply_spec) 	sc(1) b(natoaa_hqcar) i(10) cw(0) cp(2)) {cost 50} {fore -1200}}
+{"box_weapon_nato_vulcan"	("vs" c(1) brig(abn) t(all supply nobot support_frontline precision_munition) s(nato) n(0) g(supply_spec) 	sc(1) b(natoaa_hqcar) i(11) cw(0) cp(2)) {cost 100} {fore -1500}}
+
 
 {"gepard" ("v_nation" c(800) brig(nato_aa) t(all antiair aat) s(nato) n(3) crew_nation(frg) g(extra4) sc(50) b(extra) i(10) cw(0) cp(20))  {fore 0.3}}
 {"e-2c_hawkeye_france"            ("air_nation" c(300) brig(nato_aa) t(additional aircraft aat nobot support_frontline) s(nato) n(5) crew_nation(brit) g(extra5)  sc(50) b(extra) i(3) cw(0) cp(20))  {fore 0.4}}
@@ -106,7 +108,7 @@
 ;===============================NATO ARTILERY===========================================
 
 
-("squad_with11types_custom" side(nato) crew_nation(fr) name(miner) c(240) g(suppart) c1(antitank_miner:2) c2(antipersonel_miner:6) b(abn_hqcar) brig(abn) t(all nobot) cost(25) f(1) info(miner))
+("squad_with11types_custom" side(nato) crew_nation(fr) name(miner) c(240) g(suppart) c1(antitank_miner:6) c2(antipersonel_miner:2) b(abn_hqcar) brig(abn) t(all nobot) cost(25) f(1) info(miner))
 
 ("squad_with11types_custom" side(nato) crew_nation(fr) name(sappers) c(240) g(suppart) c1(saper:2) b(abn_hqcar) brig(abn) t(all nobot) cost(10) f(1) info(sappers))
 

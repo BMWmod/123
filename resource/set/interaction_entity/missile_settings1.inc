@@ -267,5 +267,7 @@
 	("spawn_proj_passive" country(rus) type(laser) weapon_tag(targeting_laser_target) decoytype(optic) decoyprob(0.04) min_alt(-100))
 	else stuff "rus_laser_spot ammo"
 	("spawn_proj_5" country(rus) type(laser_spot) weapon_tag(targeting_laser_target) decoytype(optic) decoyprob(0.00) min_alt(-100))
+	else stuff "usa_laser_spot ammo"
+	("spawn_proj_5" country(usa) type(laser_spot) weapon_tag(targeting_laser_target) decoytype(optic) decoyprob(0.00) min_alt(-100))
 ;	else stuff "persmarker" 	{with_effector {call "set_decal"} {with_effector}}
 }

@@ -13,4 +13,6 @@
 	}
 	{props "bullet"}
 	{constrain none}
+	{collider "grenade"}
+
 }
