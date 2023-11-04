@@ -10,5 +10,4 @@
 		{item "ammo grad rock"}
 	}
 	{Extension "shell_122mm_reactive.mdl"}
-	("cw_altitude_fuse_25m")
 }
