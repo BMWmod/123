@@ -359,6 +359,8 @@
 	{"hawk_rls"			{structure "cwds_radar"}}
 	{"m119"				{structure "cwds_cannon"}}
 	{"m120"				{structure "cwds_mortar"}}
+	{"m777a1"			{structure "cwds_cannon"}}
+	{"m777a2"			{structure "cwds_cannon"}}
 ;===================NATO cannon
 	{"gmg_stan"		{structure "cwds_ags"}}
 	{"spike_stan"	{structure "cwds_atgm"}}

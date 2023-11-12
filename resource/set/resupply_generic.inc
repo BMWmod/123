@@ -565,8 +565,8 @@
 ;	{item "grad mine ammo" 10 {max 40}{value 50}}				
 )
 (define "smerch"
-    {item "smerch tornado_s 9m528 fg ammo" 4 {max 12}{value 130}}
-	{item "tornado_s 9m546 cl ammo" 4 {max 12}{value 150}}
+    {item "smerch tornado_s 9m528 fg ammo" 3 {max 12}{value 130}}
+	{item "tornado_s 9m546 cl ammo" 3 {max 12}{value 150}}
 )
 (define "grad_cn"
 	{item "grad fgh ammo" 8 {max 40}{value 100}}

@@ -111,7 +111,7 @@
 {"box_weapon_rus_krasnopol"	("vs" c(1) brig(artbr) t(all supply nobot support_frontline precision_munition) s(rus) n(0) g(supplyart_spec) sc(1) b(pvo_hqcar) i(11) cw(0) cp(2)) {cost 50} {fore -1200}}
 {"box_weapon_rus_smerch_cl"	("vs" c(1) brig(artbr) t(all supply nobot support_frontline) s(rus) n(0) g(supplyart_spec) sc(1) b(pvo_hqcar) i(12) cw(0) cp(2)) {cost 100} {fore -1200}}
 ;{"box_weapon_rus_smerch_tb"	("vs" c(1) brig(artbr) t(all supply nobot support_frontline) s(rus) n(0) g(supplyart_spec_extra) sc(1) b(pvo_hqcar) i(13) cw(0) cp(2)) {cost 300} {fore -1800}}
-{"box_weapon_rus_tornado_s_fg"	("vs" c(1) brig(artbr) t(all supply nobot support_frontline) s(rus) n(0) g(supplyart_spec) sc(1) b(pvo_hqcar) i(14) cw(0) cp(2)) {cost 100} {fore -1200}}
+{"box_weapon_rus_tornado_s_fg"	("vs" c(1) brig(artbr) t(all supply nobot support_frontline) s(rus) n(0) g(supplyart_spec) sc(1) b(pvo_hqcar) i(14) cw(0) cp(2)) {cost 100} {fore -1500}}
 
 
 {"buk_m1" ("v" c(600) brig(pvo) t(all art aat nobot support_frontline) s(rus) n(4) g(extra1) sc(150) b(extra) i(6) cw(0) cp(40))  {fore -1.2}}
@@ -144,7 +144,7 @@
 
 {"lancet3m_catapult" ("vart" c(450) c1(eleron_control) c2(lancet3m_catapult) brig(artbr) t(all art nobot) s(rus) n1(vehicle_supporter:1) g(extra4) sc(50) b(extra) i(7) cw(0) cp(5))  {fore -1.0}}
 {"2c3_akaciya"	("v" c(360) brig(artbr) t(additional art nobot support_frontline) s(rus) n(4) g(extra5)  sc(100) b(extra) i(8) cw(0) cp(25))  {fore -1.0}}
-{"bm-30_smerch" ("vs" c(1200) brig(artbr) t(all art nobot support_frontline) s(rus) n(4) g(extra6) sc(350) b(extra) i(12) m(4) cw(0) cp(45))  {fore 0.0}}
+{"bm-30_smerch" ("vs" c(1500) brig(artbr) t(all art nobot support_frontline) s(rus) n(4) g(extra6) sc(350) b(extra) i(12) m(4) cw(0) cp(45))  {fore 0.0}}
 
 ;{"koalition"	("v" c(2400) brig(artbr) t(all art strike nobot no_frontline support_frontline) s(rus) n(3) g(extra6)  sc(400) b(extra) i(10) cw(0) cp(105))  {fore 0}}
 ;===============================ÂÄÂ===========================================

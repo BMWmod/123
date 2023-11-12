@@ -98,7 +98,7 @@
 {"m939_avia"	("vs" c(600) brig(usaf) t(all supply aircraft nobot support_frontline) s(usa) n(2) g(supply3) 	sc(100) b(usaaa_hqcar) i(8) cw(0) cp(2))  {fore 1}} 
 {"m939_art_pvo"	("vs" c(300) brig(usart) t(all supply nobot support_frontline) s(usa) n(2) g(supply4) 	sc(100) b(usaaa_hqcar) i(9) cw(0) cp(2))  {fore 1}}
 {"box_weapon_usa_excalibur"	("vs" c(1) brig(usart) t(all supply nobot support_frontline precision_munition) s(usa) n(0) g(supply_spec1) 	sc(1) b(usaaa_hqcar) i(10) cw(0) cp(2)) {cost 100} {fore -1500}}
-{"box_weapon_usa_gmlrs_cl"	("vs" c(1) brig(usart) t(all supply nobot support_frontline) s(usa) n(0) g(supply_spec) 	sc(1) b(usaaa_hqcar) i(11) cw(0) cp(2)) {cost 100} {fore -1800}}
+{"box_weapon_usa_gmlrs_cl"	("vs" c(1) brig(usart) t(all supply nobot support_frontline) s(usa) n(0) g(supply_spec) 	sc(1) b(usaaa_hqcar) i(11) cw(0) cp(2)) {cost 150} {fore -1800}}
 {"box_weapon_usa_gmlrs_aw"	("vs" c(1) brig(usart) t(all supply nobot support_frontline) s(usa) n(0) g(supply_spec) 	sc(1) b(usaaa_hqcar) i(12) cw(0) cp(2)) {cost 100} {fore -1800}}
 
 {"m163"             ("v_nation" c(240) brig(usa_aa) t(additional antiair aat support_frontline) s(usa) n(3) crew_nation(usa) g(extra4) sc(25) a(2) b(extra) i(6) cw(0) cp(10))  {fore 0}}
@@ -113,7 +113,7 @@
 
 {"m119"		("vart" c(300) c1(hmmwv_m998_tent) c2(m119) brig(usart) t(all art nobot support_frontline) s(usa) n(2) n1(vehicle_supporter_usmc:2) g(how) sc(140) a(1) b(usart_hqcar) i(2) cw(5) cp(20))  {fore 0.0}} 
 
-{"m777a1"		("vart" c(360) c1(oshkosh_mtvr_cargo_mk25) c2(m777a1) brig(usart) t(all art nobot support_frontline) s(usa) n(2) n1(vehicle_supporter:2) g(how1) sc(200) a(1) b(usart_hqcar) i(6) cw(5) cp(20))  {fore -1.0}} 
+{"m777a2"		("vart" c(360) c1(oshkosh_mtvr_cargo_mk25) c2(m777a2) brig(usart) t(all art nobot support_frontline) s(usa) n(4) n1(vehicle_supporter:4) g(how1) sc(200) a(1) b(usart_hqcar) i(6) cw(5) cp(20))  {fore -1.0}} 
 
 {"paladin" ("v" c(300) brig(usart) t(all art nobot support_frontline) s(usa) n(4) g(lart)  sc(300) b(usart_hqcar) i(7) cw(0) cp(30))   {fore -2.0}}
 {"mrls" ("v" c(1800) brig(usart) t(all art nobot support_frontline) s(usa) n(2) g(rszo) sc(550) b(usart_hqcar) i(8) m(4) cw(0) cp(70))  {fore 0}}
