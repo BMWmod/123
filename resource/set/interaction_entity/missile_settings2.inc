@@ -644,7 +644,7 @@
 {("CWPS_proj" missilename(milan-er) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.3) range(28) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(1.25))}
 {("CWPS_proj" missilename(hot_rock) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.3) range(23) tail(proj_jet_atgm) eng_time(1))("speed_normal" coeff(0.84))}	
 {("CWPS_proj" missilename(spike-sr) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.3) range(26) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(0.96))}
-{("CWPS_proj" missilename(spike-lr) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(40) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(1.11))};ручное управление, нет запаса топлива на маневр во избежание фаршотов
+{("CWPS_proj" missilename(spike-lr) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(32) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(1.11))};ручное управление, нет запаса топлива на маневр во избежание фаршотов
 {("CWPS_proj" missilename(red_arrow_10b) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(40) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(1.20))
 	{on "launch_procedures"
 		{delay 0.1 {with_linked_entity "missile" {ani_play "on_start"}}}
