@@ -657,7 +657,7 @@
 		{delay 0.1 {with_linked_entity "missile" {ani_play "move" loop}}}
 	}
 };ручное управление
-{("CWPS_proj" missilename(shahed136_base) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(30) tail(none) eng_time(1))
+{("CWPS_proj" missilename(shahed136_base) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(35) tail(none) eng_time(1))
 	{on "link_effects" overload
 		{delay 0.1 {with_linked_entity "missile" {ani_play "move" loop}}}
 	}
