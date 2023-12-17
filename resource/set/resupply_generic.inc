@@ -94,10 +94,13 @@
 	{item "ur_83p_ammo ammo" 1 		{max 2}	{value 25}}
 )
 (define "UAV_rus"
-	{item "eleron3sv ammo" 1 {max 1}{value 150}}				
+	{item "eleron3sv ammo" 1 {max 1}{value 150}}
 )
 (define "UAV_kamikadze_rus"
-	{item "lancet3m cm ammo" 1 {max 1}{value 150}}				
+	{item "lancet3m cm ammo" 1 {max 2}{value 150}}
+)
+(define "UAV_kamikadze_usa"
+	{item "switchblade600 ammo" 1 {max 2}{value 200}}
 )
 (define "smallarms_west"	;common for USA and NATO
 	{item "standart ammo" 10 {max 30}{value 1}}				
@@ -623,7 +626,8 @@
 	;{item "agm-114 n ammo" 1 {max 2}{value 10}}
 	{item "aim-9l_ammo ammo" 1 {max 2}{value 10}}
 	{item "AIM-120C7 ammo" 2 {max 6}{value 25}}
-	{item "mistral_missile ammo" 1 {max 4}{value 30}}	
+	{item "mistral_missile ammo" 2 {max 4}{value 15}}
+	{item "starstreak_ammo ammo" 3 {max 3}{value 30}}
     {item "spike-er2 spike-er ammo" 1 {max 4}{value 61}}			
 )
 (define "atgm_nato"
@@ -633,8 +637,8 @@
 	{item "hot_rock hot3 ammo" 1 {max 8}{value 10}}				
 ;	{item "milan_rock cm ammo" 1 {max 4}{value 4}}				
 	{item "milan_rock milan-er ammo" 1 {max 4}{value 6}}				
-	{item "spike-er spike-er ammo" 1 {max 4}{value 65}}				
-	{item "spike-lr ammo" 1 {max 2}{value 51}}
+	{item "spike-er spike-er ammo" 1 {max 3}{value 65}}				
+	{item "spike-lr ammo" 1 {max 3}{value 51}}
     {item "spike_nlos cm ammo" 1 {max 4}{value 60}}                                             	
 	{item "eryx_rock ammo" 1 {max 2}{value 3}}				
 	{item "mmp_missile ammo" 1 {max 2}{value 51}}
@@ -1375,7 +1379,7 @@
 
 			("atacms")
 			("m270")
-
+			("UAV_kamikadze_usa")
 			("kaz")
 			("mines")
 

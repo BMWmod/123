@@ -255,6 +255,7 @@
 	{"bmp3"				{structure "cwds_ifv"}}
 	{"bmp3_2"			{structure "cwds_ifv"}}
 	{"bmp3_3"			{structure "cwds_ifv"}}
+	{"bmp3_3_dz"		{structure "cwds_ifv"}}
 	{"bmp3_dz"			{structure "cwds_ifv"}}
 	{"bmp3m"			{structure "cwds_ifv"}}
 	{"bmp3_derivation"	{structure "cwds_ifv"}}

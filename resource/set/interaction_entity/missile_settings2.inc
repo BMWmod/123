@@ -644,7 +644,7 @@
 {("CWPS_proj" missilename(milan-er) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.3) range(28) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(1.25))}
 {("CWPS_proj" missilename(hot_rock) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.3) range(23) tail(proj_jet_atgm) eng_time(1))("speed_normal" coeff(0.84))}	
 {("CWPS_proj" missilename(spike-sr) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0.3) range(26) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(0.96))}
-{("CWPS_proj" missilename(spike-lr) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(32) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(1.11))};ручное управление, нет запаса топлива на маневр во избежание фаршотов
+{("CWPS_proj" missilename(spike-lr) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(33) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(1.11))};ручное управление, нет запаса топлива на маневр во избежание фаршотов
 {("CWPS_proj" missilename(red_arrow_10b) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(40) tail(proj_jet_atgm) eng_time(1))("speed_slow" coeff(1.20))
 	{on "launch_procedures"
 		{delay 0.1 {with_linked_entity "missile" {ani_play "on_start"}}}
@@ -653,6 +653,11 @@
 {("CWPS_proj" missilename(tl4_cm) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(37) tail(proj_jet_atgm) eng_time(1))
 };ручное управление, нет запаса топлива на маневр во избежание фаршотов
 {("CWPS_proj" missilename(switchblade300) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(8) tail(none) eng_time(1))("speed_slow" coeff(0.51))
+	{on "link_effects" overload
+		{delay 0.1 {with_linked_entity "missile" {ani_play "move" loop}}}
+	}
+};ручное управление
+{("CWPS_proj" missilename(switchblade600) rotation(0) rand_move(0) smoke_vulnerable(0) decoyprob(0) range(21) tail(none) eng_time(1))("speed_slow" coeff(0.8))
 	{on "link_effects" overload
 		{delay 0.1 {with_linked_entity "missile" {ani_play "move" loop}}}
 	}
@@ -1128,6 +1133,36 @@
 				{delay 0.8  ("pifpaf" args 1)("pifpaf" args 2)("pifpaf" args 3)("pifpaf" args 4)}
 				{delay 1  ("pifpaf" args 1)("pifpaf" args 2)("pifpaf" args 3)("pifpaf" args 4)}
 			}
+		}
+	}
+}
+
+{("CWPS_proj" missilename(starstreak_ammo) rotation(1) rand_move(0) smoke_vulnerable(0) decoyprob(0.01) range(20) tail(proj_jet_sam) eng_time(0.5)) ("antislip")
+	{on "launch_procedures"
+		{with_linked_entity "missile"
+			{tear "piece_missile_booster" bone "starter"{impulse forward 10}}
+		}
+		{volumes disable all}
+		{delay 0.55 
+			{with_linked_entity "missile"
+				{view pause "proj_jet"}
+				{view stop "proj_jet"}
+				{view hide "proj_jet"}
+				{tear "piece_missile_booster" bone "starter2"{impulse forward 25}}
+				{volumes disable all}
+				{spawn "starstreak_dart_carrier" "spawner1" x {impulse forward 2 com}}
+				{spawn "starstreak_dart_carrier" "spawner2" x}
+				{spawn "starstreak_dart_carrier" "spawner3" x {impulse forward -2 com}}
+			}
+			{delay 0.01 {delete}}
+		}
+
+	}
+}
+{("CWPS_proj" missilename(starstreak_dart) rotation(1) rand_move(1) smoke_vulnerable(1) decoyprob(0.1) range(15) tail(none) eng_time(0.5))
+	{on "launch_procedures"
+		{with_linked_entity "missile"
+			{ani_play "rotate" loop}
 		}
 	}
 }

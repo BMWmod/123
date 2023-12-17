@@ -198,6 +198,8 @@
 	("spawn_proj_5" country(rus) type(ir) weapon_tag(fn6a_target) decoytype(flare) decoyprob(0.15) min_alt(1))
 	else stuff "mistral_missile ammo"	
 	("spawn_proj_5" country(usa) type(ir) weapon_tag(mistral_missile_target) decoytype(flare) decoyprob(0.04) min_alt(-100))
+	else stuff "starstreak_ammo ammo"	
+	("spawn_proj_5" country(usa) type(laser) weapon_tag(starstreak_ammo_target) decoytype(optic) decoyprob(0.07) min_alt(-100))
 ;SAMs
 	else stuff "9m31 ammo"			
 	("spawn_proj_5" country(rus) type(ir) weapon_tag(9k31_target) decoytype(flare) decoyprob(0.23) min_alt(5))
