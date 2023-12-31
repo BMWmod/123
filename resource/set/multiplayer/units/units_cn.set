@@ -54,7 +54,7 @@
 
 
 ;===============================ВВС===========================================
-{"z-10_support"		("h" c(220) brig(cnair) t(all aircraft duel_heli nobot support_frontline) s(cn) n(2) g(heli)  sc(210) b(cnair_hqcar) i(2) cw(0) cp(25))  {fore -0.5}}
+{"z-10_support"		("h" c(220) brig(cnair) t(all aircraft duel_heli nobot support_frontline) s(cn) n(2) g(heli)  sc(210) b(cnair_hqcar) i(2) cw(0) cp(15))  {fore -0.5}}
 
 {"jh-7a_light"	("p" c(260) brig(cnair) t(all aircraft nobot support_frontline) s(cn) n(2) g(suppa)  sc(250) b(cnair_hqcar) i(4) cw(0) cp(25))  {fore 0.0}}
 
@@ -73,9 +73,9 @@
 {"su-35_aa_china"	("p" c(450) brig(cnsam) t(additional aircraft duel_fighter aat nobot) s(cn) n(1) g(air1)  sc(350) b(cnsam_hqcar) i(2) cw(0) cp(50))  {fore -1.7}}
 
 
-{"hq_7b"	("v" c(240) brig(cnsam) t(all art aat support_frontline) s(cn) n(3) g(pvo) sc(150) b(cnsam_hqcar) i(5) cw(0) cp(20))  {fore 0.0}}
-{"hq-16b_launcher" ("v" c(400) brig(cnsam) t(all art aat nobot support_frontline) s(cn) n(4) g(pvo17) sc(100) b(cnsam_hqcar) i(6) cw(0) cp(40))  {fore -1.2}}
-{"hq-16b_radar" ("v" c(400) brig(cnsam) t(all art nobot support_frontline) s(cn) n(5) g(pvor) sc(100) b(cnsam_hqcar) i(7) cw(0) cp(15))  {fore -1.2}}
+{"hq_7b"	("v" c(240) brig(cnsam) t(all art aat support_frontline) s(cn) n(3) g(pvo) sc(150) b(cnsam_hqcar) i(5) cw(0) cp(25))  {fore 0.0}}
+{"hq-16b_launcher" ("v" c(400) brig(cnsam) t(all art aat nobot support_frontline) s(cn) n(4) g(pvo17) sc(100) b(cnsam_hqcar) i(6) cw(0) cp(25))  {fore -1.35}}
+{"hq-16b_radar" ("v" c(400) brig(cnsam) t(all art nobot support_frontline) s(cn) n(5) g(pvor) sc(100) b(cnsam_hqcar) i(7) cw(0) cp(15))  {fore -1.35}}
 {"llq305_radar" ("v" c(300) brig(cnsam) t(all art nobot support_frontline) s(cn) n(2) g(radar) sc(50) b(cnsam_hqcar) i(8) cw(0) cp(5))  {fore 0.8}}
 {"shaanxi_sx2190_avia"	("vs" c(600) brig(cnair) t(all aircraft supply nobot support_frontline) s(cn) n(2) g(123) 	sc(100) b(cnsam_hqcar) i(9) cw(0) cp(2))  {fore 1}} 
 {"shaanxi_sx2190_art_pvo"	("vs" c(300) brig(cnart) t(all supply nobot support_frontline) s(cn) n(2) g(supplyart) 	sc(100) b(cnsam_hqcar) i(10) cw(0) cp(2))  {fore 1}}
@@ -98,11 +98,11 @@
 {"pl-96"	("vart" c(360) c1(shaanxi_sx2190_ammo_track) c2(pl-96) brig(cnart) t(all art nobot support_frontline) s(cn) n(2) n1(vehicle_supporter_art:2) g(art1) sc(150) a(1) b(cnart_hqcar) i(6) cw(5) cp(20))  {fore 0.0}}
 {"pl-66"	("vart" c(360) c1(shaanxi_sx2190_ammo_track) c2(pl-66) brig(cnart) t(all art nobot support_frontline) s(cn) n(2) n1(vehicle_supporter_art:2) g(art2) sc(180) a(1) b(cnart_hqcar) i(7) cw(5) cp(20))  {fore -0.7}}
 
-{"plz-05"	("v" c(300) brig(cnart) t(all art nobot support_frontline) s(cn) n(5) g(lart)  sc(300) b(cnart_hqcar) i(8) cw(0) cp(35))   {fore -2.0}}
+{"plz-05"	("v" c(300) brig(cnart) t(all art nobot support_frontline) s(cn) n(5) g(lart)  sc(300) b(cnart_hqcar) i(8) cw(0) cp(40))   {fore -2.0}}
 
 {"phl_81" ("vs" c(600) brig(cnart) t(all art nobot support_frontline) s(cn) n(2) g(rszo) sc(350) b(cnart_hqcar) i(10) m(4) cw(0) cp(40))   {fore -0.5}}
 
-{"plz-07a"	("v" c(360) brig(cnart) t(all art nobot support_frontline) s(cn) n(5) g(extra7)  sc(150) b(extra) i(7) cw(0) cp(25))  {fore -1.0}}
+{"plz-07a"	("v" c(360) brig(cnart) t(all art nobot support_frontline) s(cn) n(5) g(extra7)  sc(150) b(extra) i(7) cw(0) cp(30))  {fore -1.0}}
 {"dong_feng_15b" ("vs" c(1800) brig(cnart) t(all art nobot support_frontline) s(cn) n(3) g(extra8)  sc(200) b(extra) i(8) cw(0) cp(25))  {fore -0.1}}
 {"phl-03" ("vs" c(1800) brig(cnart) t(all art nobot support_frontline) s(cn) n(4) g(extra9) sc(350) b(extra) i(9) m(4) cw(0) cp(50))  {fore -0.1}}
 ;===============================Тяжелая бригада===========================================

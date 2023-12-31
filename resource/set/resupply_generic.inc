@@ -621,9 +621,8 @@
 	{item "tow_missile tow2_fg ammo" 1 {max 2}{value 15}}						
 	;{item "tow_missile tow2d ammo" 1 {max 2}{value 10}}					
     {item "jav_rock ammo" 1 {max 2}{value 30}}		
-	{item "agm-114 k ammo" 1 {max 4}{value 10}}
-;	{item "agm-114 l ammo" 1 {max 2}{value 10}}
-	;{item "agm-114 n ammo" 1 {max 2}{value 10}}
+	{item "agm-114 k ammo" 4 {max 4}{value 10}}
+	{item "agm-114 l ammo" 1 {max 2}{value 75}}
 	{item "aim-9l_ammo ammo" 1 {max 2}{value 10}}
 	{item "AIM-120C7 ammo" 2 {max 6}{value 25}}
 	{item "mistral_missile ammo" 2 {max 4}{value 15}}
@@ -663,7 +662,8 @@
 	;{item "strela10 9m37 ammo" 1 {max 8}{value 9}}				
 	{item "strela10 9m333 ammo" 2 {max 8}{value 9}}				
 	{item "9m31 ammo" 1 {max 4}{value 9}}	
-    {item "9m338 ammo" 4 {max 16}{value 10}}	
+    {item "9m338 ammo" 4 {max 16}{value 10}}
+	{item "9m330 ammo" 2 {max 8}{value 20}}
 	;{item "9m38 buk ammo" 1 {max 4}{value 50}}				
 	{item "9m317 buk ammo" 2 {max 4}{value 25}}				
 	{item "9m311 ammo" 2 {max 8}{value 25}}
