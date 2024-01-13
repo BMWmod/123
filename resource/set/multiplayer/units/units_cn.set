@@ -50,7 +50,7 @@
 ("squad_with1types" name(operator_bpla) side(cn) c(620) g(operator_bpla) c1(operator_bpla:1) b(supl) brig(common) t(all nobot) cost(40) f(0.6) info(operator_bpla))
 {"radar_bs903"	("vs" c(1200) brig(common) t(all nobot no_frontline) s(cn) n(2) g(psnr) sc(150) b(supl) i(9) cw(1) cp(35))  {fore 0}}
 {"zbd-86"		("v" c(400) brig(common) t(all nobot no_frontline) s(cn) n(0) g(reserv_bmp)  sc(50) b(supl) i(10) cw(0) cp(15))  {fore -0.5}}
-;{"ztz_99_phase_2"	("v" c(600) brig(common) t(all nobot no_frontline) s(cn) n(0) g(reserv)  sc(220) b(supl) i(12) cw(0) cp(20))  {fore -0.5}}
+{"ztz_99_phase_2"	("v" c(600) brig(common) t(all nobot no_frontline) s(cn) n(0) g(reserv)  sc(230) b(supl) i(12) cw(0) cp(25))  {fore -0.5}}
 
 
 ;===============================ВВС===========================================
@@ -131,10 +131,10 @@
 
 {"ztz-96a"		("v_v" c(450) brig(cnheavy) t(all tanks_only duel_tanks90 tank_cn) s(cn) n(3) g(obt_mot1)  sc(250) b(cnheavy_hqcar) i(7) m(4) cw(0) cp(50))  {fore 0.0}} 
 
-{"ztz-99a"		("v_v" c(450) t(all tanks_only duel_tanks90) brig(cnheavy) s(cn) n(3) g(obt_mot3)  sc(280) b(cnheavy_hqcar) i(9) cw(0) cp(50))  {fore 0.-}}
+{"ztz-99a"		("v_v" c(450) t(all tanks_only duel_tanks90) brig(cnheavy) s(cn) n(3) g(obt_mot3)  sc(280) b(cnheavy_hqcar) i(9) cw(0) cp(50))  {fore 0.0}}
 
 ("squad_with9types" side(cn) name(elite) c(600) g(extra10) c1(elite_com:1) c2(elite_mgun:2) c3(elite_minmen:1) c4(elite_smg:2) c5(elite_rpg:2) c6(elite_rpghelp:2) c7(elite_sniper:1) c8(elite_smg2:2) b(extra) brig(cnheavy) t(all specnaz infantry) cost(50) f(0) info(elite))
-{"ztz_99_phase_2"		("v" c(500) t(all tanks_only duel_tanks90) brig(cnheavy) s(cn) n(3) g(extra11)  sc(150) b(extra) i(8) cw(0) cp(60))  {fore -0.35}}
+{"ztq-15"		("v" c(500) t(all tanks_only duel_tanks90) brig(cnheavy) s(cn) n(3) g(extra11)  sc(150) b(extra) i(8) cw(0) cp(35))  {fore 0.0}}
 {"aft-10"	("v" c(1500) brig(cnheavy) t(all att) s(cn) n(4) g(extra12)  	sc(400) b(extra) i(6) cw(0) cp(40))  {fore 0.0}}
 ;===============================Средняя бригада===========================================
 

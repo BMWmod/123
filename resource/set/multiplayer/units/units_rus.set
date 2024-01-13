@@ -61,7 +61,7 @@
 ;{"bmp1_new"		("v" c(400) brig(common) t(all nobot no_frontline) s(rus) n(0) g(reserv_bmp)  sc(50) b(supl) i(10) cw(0) cp(15))  {fore -0.5}}
 ;{"t62m"	("v" c(600) brig(common) t(all tanks_only duel_tanks90 nobot no_frontline) s(rus) n(0) g(reserv)  sc(170) b(supl) i(11) cw(0) cp(25))  {fore -0.5}} 
 ;{"t72a"		("v" c(600) brig(common) t(all tanks_only duel_tanks90 nobot no_frontline) s(rus) n(0) g(reserv)  sc(120) b(supl) i(12) cw(0) cp(25))  {fore -0.5}}
-{"t72av"		("v" c(600) brig(common) t(all tanks_only duel_tanks90 nobot no_frontline) s(rus) n(0) g(reserv)  sc(230) b(supl) i(13) cw(0) cp(25))  {fore -0.5}}
+{"t72av"		("v" c(600) brig(common) t(all tanks_only duel_tanks90 nobot no_frontline) s(rus) n(0) g(reserv)  sc(200) b(supl) i(13) cw(0) cp(25))  {fore -0.5}}
 ;{"ural-4320_long_zu23-2"		("v" c(300) brig(common) t(all nobot no_frontline) s(rus) n(0) g(reserv_aa)  sc(30) b(supl) i(10) cw(0) cp(5)) {order 100}  {fore -0.5}}
 
 
@@ -179,7 +179,7 @@
 )
 
 {"bmp2_new"		("v3" c(300) c1(bmp2_new)brig(mot) t(all inf_rus infantry) s(rus) n(2) n1(tankman:3) g(bmp1)  sc(85) b(mot_hqcar) i(2) cw(20) cp(20))  {fore 0.0}}
-{"bmp3_2"		("v3" c(450) c1(bmp3_2)brig(mot) t(all inf_rus infantry) s(rus) n(3) n1(tankman:3) g(bmp2)  sc(200) b(mot_hqcar) i(3) cw(20) cp(35))  {fore 0.0}}
+{"bmp3_2022_sh1"		("v3" c(450) c1(bmp3_2022_sh1)brig(mot) t(all inf_rus infantry) s(rus) n(3) n1(tankman:3) g(bmp2)  sc(205) b(mot_hqcar) i(3) cw(20) cp(35))  {fore 0.0}}
 {"bmp3_3_dz"		("v3" c(450) c1(bmp3_3_dz)brig(mot) t(all inf_rus infantry) s(rus) n(3) n1(tankman:3) g(bmp3)  sc(215) b(mot_hqcar) i(3) cw(20) cp(35))  {fore 0.0}}
 {"bmp2m_new"		("v3" c(450) c1(bmp2m_new)brig(mot) t(all inf_rus) s(rus) n(3) n1(tankman:3) g(bmp4)  sc(215) b(mot_hqcar) i(4) cw(20) cp(35))  {fore -0.5}}
 
@@ -188,7 +188,7 @@
   g(first_inf1)  sc(80) b(mot_hqcar) i(1) cw(0) cp(15))  {fore 0.0}
 }
 {"bmp2_newi"		("v3" c(300) c1(bmp2_new)brig(mot) t(all inf_rus infantry) s(rus) n(2) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_zamcom:1) n8(spec_smg2:1) g(bmp1)  sc(160) b(mot_hqcar) i(12) cw(0) cp(15))  {fore 0.0}}
-{"bmp3_2i"		("v3" c(450) c1(bmp3_2)brig(mot) t(all inf_rus infantry) s(rus) n(3) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_zamcom:1) g(bmp2)  sc(275) b(mot_hqcar) i(13) cw(0) cp(15))  {fore 0.0}}
+{"bmp3_2022_sh1i"		("v3" c(450) c1(bmp3_2022_sh1)brig(mot) t(all inf_rus infantry) s(rus) n(3) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_zamcom:1) g(bmp2)  sc(280) b(mot_hqcar) i(13) cw(0) cp(15))  {fore 0.0}}
 {"bmp3_3_dzi"		("v3" c(450) c1(bmp3_3_dz)brig(mot) t(all inf_rus infantry) s(rus) n(3) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_zamcom:1) g(bmp3)  sc(290) b(mot_hqcar) i(14) cw(0) cp(15))  {fore 0.0}}
 {"bmp2m_newi"		("v3" c(450) c1(bmp2m_new)brig(mot) t(all inf_rus) s(rus) n(3) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_zamcom:1) g(bmp4)  sc(290) b(mot_hqcar) i(15) cw(0) cp(25))  {fore -0.5}}
 
@@ -236,14 +236,14 @@
   b(specbr_hqcar) brig(specbr) t(all infantry) cost(110) f(0) info(mor_flame)
 )
 {"bmp2_new2"		("v3" c(300) c1(bmp2_new2)brig(specbr) t(all inf_rus infantry) s(rus) n(2) n1(tankman:3) g(advinf1111)  sc(85) b(specbr_hqcar) i(3) cw(20) cp(20))  {fore 0.0}}
-{"bmp3_3"		("v3" c(450) c1(bmp3_3)brig(specbr) t(all inf_rus infantry) s(rus) n(2) n1(tankman:3) g(advinf1112)  sc(210) b(specbr_hqcar) i(4) cw(20) cp(30))  {fore 0.0}}
+{"bmp3_3"		("v3" c(450) c1(bmp3_3)brig(specbr) t(all inf_rus infantry) s(rus) n(2) n1(tankman:3) g(advinf1112)  sc(200) b(specbr_hqcar) i(4) cw(20) cp(30))  {fore 0.0}}
 
 {"ural375i_mor"		("v3" c(120) c1(ural375)brig(specbr) t(all inf_rus infantry) s(rus) n(2) 
   n1(vehicle_supporter:1) n2(mor_com:1) n3(mor_mgun:1) n4(mor_mgunhelp:1) n5(mor_rpg:1) n6(mor_rpghelp:1) n7(mor_zamcom:1) n8(mor_smg2:1) n9(morspec_sniper1:1) 
   g(first_inf2)  sc(80) b(specbr_hqcar) i(1) cw(0) cp(15))  {fore 0.0}
 }
 {"bmp2_newi2"		("v3" c(300) c1(bmp2_new2)brig(specbr) t(all inf_rus infantry) s(rus) n(2) n1(tankman:3) n2(mor_com:1) n3(mor_mgun:1) n4(mor_mgunhelp:1) n5(mor_rpg:1) n6(mor_rpghelp:1) n7(mor_zamcom:1) n8(mor_smg2:1) g(advinf1111)  sc(160) b(specbr_hqcar) i(12) cw(0) cp(15))  {fore 0.0}}
-{"bmp3i"		("v3" c(450) c1(bmp3_3)brig(specbr) t(all inf_rus infantry) s(rus) n(2) n1(tankman:3) n2(mor_com:1) n3(mor_mgun:1) n4(mor_mgunhelp:1) n5(mor_rpg:1) n6(mor_rpghelp:1) n7(mor_zamcom:1) g(advinf1112)  sc(285) b(specbr_hqcar) i(13) cw(0) cp(15))  {fore 0.0}}
+{"bmp3i"		("v3" c(450) c1(bmp3_3)brig(specbr) t(all inf_rus infantry) s(rus) n(2) n1(tankman:3) n2(mor_com:1) n3(mor_mgun:1) n4(mor_mgunhelp:1) n5(mor_rpg:1) n6(mor_rpghelp:1) n7(mor_zamcom:1) g(advinf1112)  sc(275) b(specbr_hqcar) i(13) cw(0) cp(15))  {fore 0.0}}
 
 
 ("squad_with2types" name(snipers) side(rus) c(480) g(snipers) c1(morpeh_sniper:1) c2(morpeh_spotter:1) b(specbr_hqcar) brig(specbr) t(all duel_snipers infantry) cost(50) f(0.5) info(snipers))

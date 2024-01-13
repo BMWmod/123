@@ -620,13 +620,12 @@
 	{item "tow_missile tow2b ammo" 1 {max 2}{value 10}}	
 	{item "tow_missile tow2_fg ammo" 1 {max 2}{value 15}}						
 	;{item "tow_missile tow2d ammo" 1 {max 2}{value 10}}					
-    {item "jav_rock ammo" 1 {max 2}{value 30}}		
+    {item "jav_rock f ammo" 1 {max 2} {value 30}}		
 	{item "agm-114 k ammo" 4 {max 4}{value 10}}
 	{item "agm-114 l ammo" 1 {max 2}{value 75}}
 	{item "aim-9l_ammo ammo" 1 {max 2}{value 10}}
 	{item "AIM-120C7 ammo" 2 {max 6}{value 25}}
 	{item "mistral_missile ammo" 2 {max 4}{value 15}}
-	{item "starstreak_ammo ammo" 3 {max 3}{value 30}}
     {item "spike-er2 spike-er ammo" 1 {max 4}{value 61}}			
 )
 (define "atgm_nato"
@@ -645,6 +644,7 @@
 	{item "agm-114 k ammo" 1 {max 4}{value 10}}
 	{item "aim-9l_ammo ammo" 1 {max 2}{value 5}}
 	{item "xmim-115avt1 ammo" 2 {max 10}{value 20}}
+	{item "ammo starstreak_ammo" 3 {max 6}{value 30}}
 )
 (define "atgm_cn"
 	{item "hj73 hj73c" 1 {max 4}{value 4}}				

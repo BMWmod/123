@@ -255,6 +255,8 @@
 	{"bmp3"				{structure "cwds_ifv"}}
 	{"bmp3_2"			{structure "cwds_ifv"}}
 	{"bmp3_3"			{structure "cwds_ifv"}}
+	{"bmp3_2022_sh1"	{structure "cwds_ifv"}}
+	{"bmp3_2022_sh2"	{structure "cwds_ifv"}}
 	{"bmp3_3_dz"		{structure "cwds_ifv"}}
 	{"bmp3_dz"			{structure "cwds_ifv"}}
 	{"bmp3m"			{structure "cwds_ifv"}}
@@ -618,6 +620,7 @@
 	{"ztz-96a"			{structure "cwds_tank"}}
 	{"ztz_99_phase_2"	{structure "cwds_tank2"}}
 	{"ztz-99a"			{structure "cwds_tank2"}}
+	{"ztq-15"			{structure "cwds_tank2"}}
 ;===================Train
 	{"locomote_tgmz_1010"	}
 	{"2te10"	}

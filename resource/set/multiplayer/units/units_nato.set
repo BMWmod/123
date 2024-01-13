@@ -159,7 +159,7 @@
 {"boxer_guni" ("v3g" c(500) c1(boxer_gun)brig(bund) t(all inf_nato infantry) s(nato) n(3) n1(tankman:3) n2(frg_com:1) n3(frg_gren:1) n4(frg_rpg:1) n5(frg_mgun:1) n6(frg_rifleman:1) n7(frg_rpg2:1) g(bmp4)  sc(280) b(bund_hqcar) i(42) cw(0) cp(5))  {fore -0.5}}
 {"pumai" ("v3g" c(400) c1(puma_noptur)brig(bund) t(all inf_nato infantry) s(nato) n(3) n1(tankman:3) n2(frg_com:1) n3(frg_gren:1) n4(frg_rpg:1) n5(frg_mgun:1) n6(frg_rifleman:1) n8(frg_rpg2:1) g(bmp4)  sc(270) b(bund_hqcar) i(43) cw(0) cp(5))  {fore -0.5}}
 
-{"spike_stan" ("vs_nation" c(800) brig(bund) t(all nobot) s(nato) crew_nation(frg) n(2) g(spike_er) sc(200) b(common) i(44) cw(1) cp(30))  {fore 0.0}}	
+{"spike_stan" ("vs_nation" c(800) brig(bund) t(all nobot) s(nato) crew_nation(frg) n(2) g(spike_er) sc(200) b(bund_hqcar) i(44) cw(1) cp(30))  {fore 0.0}}	
 {"wiesel1_gun" ("v_nation" c(400) brig(bund) t(all) s(nato) n(2) crew_nation(frg) g(larm1) sc(55) b(bund_hqcar) i(45) cw(0) cp(8))  {fore 0.0}}
 {"wiesel1_tow" ("v_nation" c(450) brig(bund) t(all att) s(nato) n(3) crew_nation(frg) g(larm) sc(60) b(bund_hqcar) i(46) cw(0) cp(8))  {fore 0.0}}
 {"fennek_gmg" ("vs_nation" c(600) brig(bund) t(all) s(nato) crew_nation(frg) n(3) g(larm) sc(135) b(bund_hqcar) i(47) cw(0) cp(15))  {fore 0.0}}
