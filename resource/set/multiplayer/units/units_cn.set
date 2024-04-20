@@ -113,14 +113,14 @@
 
 ("squad_with11types" side(cn) name(spec) c(120) g(inf)  c1(spec_com:1) c2(spec_mgun:1) c3(spec_mgunhelp:1) c4(spec_rpg:1) c5(spec_rpghelp:1) c6(spec_sniper:1) c7(spec_smg2:2) c8(spec_minmen:1) b(cnheavy_hqcar) brig(cnheavy) t(all infantry) cost(75) f(1.0) info(spec))
 {"zbd86a"		("v3" c(300) c1(zbd86a)brig(cnheavy) t(all inf_cn infantry) s(cn) n(2) n1(tankman:3) g(bmp)  sc(75) b(cnheavy_hqcar) i(2) cw(20) cp(20))  {fore 0.0}}
-{"zbd04a"		("v3" c(360) c1(zbd04a)brig(cnheavy) t(all inf_cn infantry) s(cn) n(3) n1(tankman:3) g(bmp2)  sc(200) b(cnheavy_hqcar) i(3) cw(20) cp(35))  {fore 0.0}}
+{"zbd04a"		("v3" c(360) c1(zbd04a)brig(cnheavy) t(all inf_cn infantry) s(cn) n(3) n1(tankman:3) g(bmp2)  sc(120) b(cnheavy_hqcar) i(3) cw(20) cp(35))  {fore 0.0}}
 
 {"shaanxi_sx2190_passengeri_cnheavy"		("v3" c(120) c1(shaanxi_sx2190_passenger)brig(cnheavy) t(all inf_cn infantry max5) s(cn) n(2) 
   n1(vehicle_supporter:1) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_sniper:1) n8(spec_smg2:2) n9(spec_minmen:1)
   g(first_inf1)  sc(80) b(cnheavy_hqcar) i(1) cw(0) cp(8))  {fore 0.0}
 }
 {"zbd86ai"		("v3" c(300) c1(zbd86a)brig(cnheavy) t(all inf_cn infantry) s(cn) n(2) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_sniper:1) n8(spec_smg2:1) g(bmp)  sc(130) b(cnheavy_hqcar) i(12) cw(0) cp(15))  {fore 0.0}}
-{"zbd04ai"		("v3" c(360) c1(zbd04a)brig(cnheavy) t(all inf_cn infantry) s(cn) n(3) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_sniper:1) n8(spec_smg2:1)  g(bmp2)  sc(255) b(cnheavy_hqcar) i(13) cw(0) cp(35))  {fore 0.0}}
+{"zbd04ai"		("v3" c(360) c1(zbd04a)brig(cnheavy) t(all inf_cn infantry) s(cn) n(3) n1(tankman:3) n2(spec_com:1) n3(spec_mgun:1) n4(spec_mgunhelp:1) n5(spec_rpg:1) n6(spec_rpghelp:1) n7(spec_sniper:1) n8(spec_smg2:1)  g(bmp2)  sc(185) b(cnheavy_hqcar) i(13) cw(0) cp(35))  {fore 0.0}}
 
 ("squad_with2types" name(snipers2) side(cn) c(480) g(snipers) c1(motostrelk_sniper:1) c2(motostrelk_spotter:1) b(cnheavy_hqcar) brig(cnheavy) t(all duel_snipers infantry) cost(50) f(0.5) info(snipers2))
 ("squad_with2types" name(at_rifle) side(cn) c(240) g(snipers) c1(at_rifle:1) c2(motostrelk_spotter:1) b(cnheavy_hqcar) brig(cnheavy) t(all) cost(50) f(0.5) info(at_rifle))
@@ -134,7 +134,7 @@
 {"ztz-99a"		("v_v" c(450) t(all tanks_only duel_tanks90) brig(cnheavy) s(cn) n(3) g(obt_mot3)  sc(280) b(cnheavy_hqcar) i(9) cw(0) cp(50))  {fore 0.0}}
 
 ("squad_with9types" side(cn) name(elite) c(600) g(extra10) c1(elite_com:1) c2(elite_mgun:2) c3(elite_minmen:1) c4(elite_smg:2) c5(elite_rpg:2) c6(elite_rpghelp:2) c7(elite_sniper:1) c8(elite_smg2:2) b(extra) brig(cnheavy) t(all specnaz infantry) cost(50) f(0) info(elite))
-{"ztq-15"		("v" c(500) t(all tanks_only duel_tanks90) brig(cnheavy) s(cn) n(3) g(extra11)  sc(150) b(extra) i(8) cw(0) cp(35))  {fore 0.0}}
+{"ztq-15"		("v" c(700) t(all tanks_only duel_tanks90) brig(cnheavy) s(cn) n(3) g(extra11)  sc(150) b(extra) i(8) cw(0) cp(35))  {fore 0.3}}
 {"aft-10"	("v" c(1500) brig(cnheavy) t(all att) s(cn) n(4) g(extra12)  	sc(400) b(extra) i(6) cw(0) cp(40))  {fore 0.0}}
 ;===============================—редн€€ бригада===========================================
 
@@ -142,8 +142,8 @@
 
 ("squad_with11types" side(cn) name(spec2) c(120) g(inf)  c1(spec2_com:1) c2(spec2_mgun:1) c3(spec2_mgunhelp:1) c4(spec2_rpg:1) c5(spec2_rpghelp:1) c6(spec2_sniper:1) c7(spec2_smg2:2) c8(spec2_minmen:1) b(cnmed_hqcar) brig(cnmed) t(all infantry) cost(75) f(1.0) info(spec2))
 
-{"zsl-92b"		("v3" c(300) c1(zsl-92b)brig(cnmed) t(all inf_cn infantry) s(cn) n(2) n1(tankman:3) g(bmp1)  sc(65) b(cnmed_hqcar) i(2) cw(20) cp(20))  {fore 0.0}}
-{"zbl_08_atgm"		("v3" c(300) c1(zbl_08_atgm)brig(cnmed) t(all inf_cn infantry) s(cn) n(2) n1(tankman:3) g(bmp12)  sc(90) b(cnmed_hqcar) i(3) cw(20) cp(25))  {fore 0.0}}
+{"zsl-92b"		("v3" c(300) c1(zsl-92b)brig(cnmed) t(all inf_cn infantry) s(cn) n(2) n1(tankman:3) g(bmp1)  sc(50) b(cnmed_hqcar) i(2) cw(20) cp(20))  {fore 0.0}}
+{"zbl_08_atgm"		("v3" c(300) c1(zbl_08_atgm)brig(cnmed) t(all inf_cn infantry) s(cn) n(2) n1(tankman:3) g(bmp12)  sc(75) b(cnmed_hqcar) i(3) cw(20) cp(25))  {fore 0.0}}
 
 {"shaanxi_sx2190_passengeri_cnmed"		("v3" c(120) c1(shaanxi_sx2190_passenger)brig(cnmed) t(all inf_cn infantry max5) s(cn) n(2) 
   n1(vehicle_supporter:1) n2(spec2_com:1) n3(spec2_mgun:1) n4(spec2_mgunhelp:1) n5(spec2_rpg:1) n6(spec2_rpghelp:1) n7(spec2_sniper:1) n8(spec2_smg2:2) n9(spec2_minmen:1)

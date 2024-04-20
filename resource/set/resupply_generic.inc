@@ -509,6 +509,11 @@
 	{item "bullet152_RUS_h fg ammo" 1 {max 20}{value 25}}				
 ;	{item "bullet152_RUS_h korr ammo" 1 {max 3}{value 80}}
 )
+(define "203mm"
+	{item "bullet203_rus fg ammo" 1 {max 5} {value 15}}				
+	{item "bullet203_rus cl ammo" 1 {max 3} {value 30}}	
+   ; {item "bullet203_rus rok ammo" 99 {max 99}{value 15}}
+)
 (define "155mm_USA"
 	{item "bullet155_USA cl ammo" 1 {max 30}{value 15}}				
 	{item "bullet155_USA fg ammo" 1 {max 30}{value 15}}				
@@ -898,6 +903,7 @@
 			("122mm")
 			("125mm")
 			("152mm")
+			("203mm")
 			("105mm_idf")
 			("105mm_USA")
 			("105mm_NATO")
@@ -1302,6 +1308,7 @@
 		{resupply
 			("122mm")
 			("152mm")
+			("203mm")
 			("iskander")
 			("grad")
 			("smerch")

@@ -165,6 +165,7 @@
 	{"bm-30_tornado_s"		{structure "cwds_mlrs8"}}
 	{"2c9"					{structure "cwds_tank"}}
 	{"2c3_akaciya"			{structure "cwds_tank2"}}
+	{"2s7m_malka"			{structure "cwds_tank2"}}
 	{"dana_152mm"			{structure "cwds_apc8"}}
 	{"pzh2000"				{structure "cwds_tank2"}}
 	{"as_90"				{structure "cwds_tank2"}}
@@ -198,6 +199,7 @@
 	{"zlt_11"				{structure "cwds_apc8"}}
 	{"zsl-92a"				{structure "cwds_apc6"}}
 	{"zsl-92b"				{structure "cwds_apc6"}}
+	{"ee9_cascavel"			{structure "cwds_apc6"}}
 ;===================NATO IFV
 	{"fennek"			{structure "cwds_apc4"}}
 	{"fennek_gmg"		{structure "cwds_apc4"}}
@@ -509,6 +511,8 @@
 	{"toyota_hilux_dshkm"	{structure "cwds_armcar"}}
 	{"toyota_hilux"			{structure "cwds_armcar"}}
 	{"toyota_hilux_ammo"	{structure "cwds_car"}}
+	{"toyota_hilux_nurs"	{structure "cwds_armcar"}}
+	{"toyota_hilux_kornet"	{structure "cwds_armcar"}}
 	{"uaz_car"				{structure "cwds_car"}}
 	{"uaz_van"				{structure "cwds_car"}}
 	{"vaz_2106"				{structure "cwds_car"}}
