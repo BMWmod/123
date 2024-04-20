@@ -27,12 +27,13 @@
 	 ("CW_acc_grlaunch" mils(3))	
 	 ("CW_acc_grlaunch_95" mils(3))	
 	 {recoveryTime 0.16}
-	 {rechargeTime 5}
+	 {rechargeTime 15}
 	 
 	 {speed 45}
-	 {gravity 1.5}
-	{Spreading	
-		{BurstAccuracy 100 90 80 70 50}
+	 {gravity 1.1}
+	{Spreading
+		{SpreadXYRatio	2.5}
+		{BurstAccuracy 75 50 45 40 35}
 	}
 
 	{cursor "cannon_on_fg_3"}

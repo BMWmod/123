@@ -1,1 +1,10 @@
-    		(include "stuff.ext")	{Volume "body"		{thickness 4}		{able {touch} {bullet 0} {visible 0} {blast}}	}	{props "nocover" "steel" "stuff_shell"}	{lodclass "stuff_small"}	{collider "ammo"}	
+;SDL
+
+(include "stuff.ext")
+{Volume "body"
+	{thickness 4}
+	{able {touch} {bullet 0} {visible 0} {blast}}
+}
+{props "nocover" "steel" "stuff_shell"}
+{lodclass "stuff_small"}
+{collider "ammo"}

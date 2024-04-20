@@ -425,3 +425,15 @@
 ("ls6_selector" n(02))
 ("ls6_selector" n(03))
 
+(define "csbbm2_selector"	
+	{proj_csbbm2_gps_%n
+		{"rus_gps cwps2" {volume "target_gorka"}}
+		{"rus_gps cwps2" {ground}}
+		
+	}
+)
+("csbbm2_selector" n(00))
+("csbbm2_selector" n(01))
+("csbbm2_selector" n(02))
+("csbbm2_selector" n(03))
+

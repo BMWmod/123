@@ -69,13 +69,12 @@
 	}
 	{Weaponry
 		{place "gun"
-			{weapon "weapon 32_57_pickup" filling "ammo 5 fg cm_e" 1}
+			{weapon "9m133x1_base" filling "ammo 9m133 cm_e" 1}
 			{foresight "foresight1"}
 			{barrels 1}
 			{gunner "gunner"}
 			{charger "gunner"}
 			{basic}
-			("CW_stab_no_stabiliser")
 		}
 	}
 	{Chassis

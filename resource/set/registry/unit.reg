@@ -167,6 +167,7 @@
 	{"2c3_akaciya"			{structure "cwds_tank2"}}
 	{"2s7m_malka"			{structure "cwds_tank2"}}
 	{"dana_152mm"			{structure "cwds_apc8"}}
+	{"caesar"				{structure "cwds_apc6"}}
 	{"pzh2000"				{structure "cwds_tank2"}}
 	{"as_90"				{structure "cwds_tank2"}}
 	{"paladin"				{structure "cwds_tank2"}}
@@ -249,6 +250,7 @@
 	{"bmd4m_sadovnitsa"	{structure "cwds_ifv"}}
 	{"sprutsd"			{structure "cwds_tank"}}
 	{"bmp1_new"			{structure "cwds_ifv"}}
+	{"bmp1_new_without_ptyr"	{structure "cwds_ifv"}}
 	{"bmp1_kliver"		{structure "cwds_ifv"}}
 	{"bmp2_new"			{structure "cwds_ifv"}}
 	{"bmp2_new2"		{structure "cwds_ifv"}}
@@ -259,7 +261,7 @@
 	{"bmp3_3"			{structure "cwds_ifv"}}
 	{"bmp3_2022_sh1"	{structure "cwds_ifv"}}
 	{"bmp3_2022_sh2"	{structure "cwds_ifv"}}
-	{"bmp3_3_dz"		{structure "cwds_ifv"}}
+	{"bmp3_2022_dz"		{structure "cwds_ifv"}}
 	{"bmp3_dz"			{structure "cwds_ifv"}}
 	{"bmp3m"			{structure "cwds_ifv"}}
 	{"bmp3_derivation"	{structure "cwds_ifv"}}
@@ -625,6 +627,7 @@
 	{"ztz_99_phase_2"	{structure "cwds_tank2"}}
 	{"ztz-99a"			{structure "cwds_tank2"}}
 	{"ztq-15"			{structure "cwds_tank2"}}
+	{"zulfiqar-3"		{structure "cwds_tank2"}}
 ;===================Train
 	{"locomote_tgmz_1010"	}
 	{"2te10"	}

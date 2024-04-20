@@ -510,9 +510,9 @@
 ;	{item "bullet152_RUS_h korr ammo" 1 {max 3}{value 80}}
 )
 (define "203mm"
-	{item "bullet203_rus fg ammo" 1 {max 5} {value 15}}				
-	{item "bullet203_rus cl ammo" 1 {max 3} {value 30}}	
-   ; {item "bullet203_rus rok ammo" 99 {max 99}{value 15}}
+	{item "bullet203_rus fg ammo" 1 {max 8} {value 15}}				
+	;{item "bullet203_rus cl ammo" 1 {max 3} {value 30}}	
+	;{item "bullet203_rus rok ammo" 99 {max 99}{value 15}}
 )
 (define "155mm_USA"
 	{item "bullet155_USA cl ammo" 1 {max 30}{value 15}}				
@@ -535,6 +535,7 @@
     {item "bullet155_USA_h fg ammo" 1 {max 30}{value 15}}	
 	{item "bullet155_USA_h_r fg ammo" 1 {max 30}{value 15}}		
 	{item "bullet155_USA_pgk fg ammo" 1 {max 30}{value 60}}
+	{item "bullet155_fr satt ammo" 1 {max 30}{value 80}}
 	
 	{item "bullet152_RUS_a fg ammo" 1 {max 40}{value 15}}	
 )
@@ -592,6 +593,9 @@
 (define "m270_nato"
 	{item "m270 fg ammo" 6 {max 12}{value 480}}		
 	;{item "m270 cl ammo" 6 {max 12}{value 20}}		
+)
+(define "shahed136"
+	{item "shahed136 base ammo" 1 {max 5}{value 70}}
 )
 
 
@@ -792,6 +796,8 @@
 )
 (define "air_stuff_cn"	
     {item "akd-10 ammo" 2 {max 8}{value 12}}
+    {item "ag300m ammo" 2 {max 4}{value 20}}
+	{item "cs-bbm2 ammo" 2 {max 2}{value 20}}
 	{item "bomb250_3 fg ammo" 4 {max 8}{value 40}}				
 	;{item "bomb250_3 ic ammo" 6 {max 24}{value 60}}		
 	{item "ls6 ammo" 1 {max 4}{value 25}}
@@ -1261,6 +1267,13 @@
 			("rpg_cn")
 			("atgm_cn")
 			("manpads_cn")
+			;for Iran
+			("smallarms_rus")
+			("hmgun_rus")
+			("autocannons_rus")
+			("c5")
+			("rpg_rus")
+			("atgm_rus")
 		}
 		{radius 			10}
 		{resupplyPeriod 	8}
@@ -1512,11 +1525,58 @@
 			("manpads_cn")
 			("152mm")
 			("155mm_cn")
+			;for Iran
+			("shahed136")
+			("smallarms_rus")
+			("hmgun_rus")
+			("autocannons_rus")
+			("c5")
+			("rpg_rus")
+			("atgm_rus")
 		}
 		{radius 			10}
 		{resupplyPeriod 	8}
 		{regenerationPeriod 4.4}
 		{limit 				200}
+	}
+	("supply_decal")
+)
+(define "mp_cwr_cn_common_medium"
+	{extender "supply_zone"
+		{resupply
+			("smallarms_cn")
+			("hmgun_cn")
+			("ags_cn")
+			("mortar_cn")
+			("type63_cn")
+			("autocannons_cn")
+			("100mm_bmp3")
+			("100mm_rapira")
+			("105mm_cn")
+			("120mm_cn_mine")
+			("122mm")
+			("125mm_cn")
+			("125mm")
+			("smokes")
+			("rpg_cn")
+			("atgm_cn")
+			("manpads_cn")
+			("152mm")
+			("155mm_cn")
+			("shahed136")
+			;for Iran
+			("shahed136")
+			("smallarms_rus")
+			("hmgun_rus")
+			("autocannons_rus")
+			("c5")
+			("rpg_rus")
+			("atgm_rus")
+		}
+		{radius 			10}
+		{resupplyPeriod 	8}
+		{regenerationPeriod 4.4}
+		{limit 				130}
 	}
 	("supply_decal")
 )
